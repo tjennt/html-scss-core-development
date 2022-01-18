@@ -1,0 +1,8 @@
+@function convert-rem($value: 16) {
+  $unitRem: 1rem;
+  $rem-target: $value / 16;
+  @if ($value == 0) {
+    @return $value;
+  }
+  @return $rem-target * $unitRem;
+}

@@ -1,0 +1,15 @@
+.block-header {
+    .box-image-slide {
+        .images {
+            min-height: 70vh;
+            &__img-one {
+                background-image: url('/public/assets/images/pictures/header-img-2.png');
+                background-size: cover;
+            }
+            &__img-two {
+                background-image: url('/public/assets/images/pictures/header-img-2.png');
+                background-size: cover;
+            }
+        }
+    }
+}

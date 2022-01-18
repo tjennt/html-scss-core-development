@@ -1,0 +1,16 @@
+{
+  "name": "html-scss-core",
+  "version": "1.0.0",
+  "description": "Html Scss auto generate scc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:sass": "node-sass -r --output-style compressed public/assets/styles/scss/main.scss -o public/assets/styles/css/",
+    "watch:sass": "npm run build:sass && npm run build:sass -- -w"
+  },
+  "author": "tjennt",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
